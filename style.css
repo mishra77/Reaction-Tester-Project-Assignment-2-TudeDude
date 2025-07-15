@@ -1,0 +1,26 @@
+/* Ensure full-page layout for absolute positioning */
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;            /* Center all inline text elements */
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Optional: center the heading and paragraph vertically with some spacing */
+h1, p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#shape {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    display: none;
+}
